@@ -1,0 +1,7 @@
+numbers = [10, 20, 30, 40]
+iterator = iter(numbers)
+
+print(next(iterator))  # 10
+print(next(iterator))  # 20
+print(next(iterator))  # 30
+print(next(iterator))  # 40
